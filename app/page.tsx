@@ -6,6 +6,7 @@ import HeroSection from "@/components/hero-section";
 import ContentSection from "@/components/content-section";
 import StatsSection from "@/components/stat-section";
 import Testimonials from "@/components/testimonial";
+import FAQSection from "@/components/faq-section";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ContentSection />
       <StatsSection />
       <Testimonials />
+      <FAQSection />
       <CallToAction />
       <Footer />
     </main>
