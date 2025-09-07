@@ -13,7 +13,7 @@ export const auth = betterAuth({
     emailVerification: {
         sendVerificationEmail: async ({ user, url }) => {
             await resend.emails.send({
-                from: 'Notify <kivu.event.app@gmail.com>',
+                from: 'MD Notes <md.notes@gmail.com>',
                 to: [user.email],
                 subject: 'Verify your email address',
                 react: VerificationEmail({ userName: user.name, verificationUrl: url }),
@@ -31,7 +31,7 @@ export const auth = betterAuth({
         enabled: true,
         sendResetPassword: async ({ user, url }) => {
             await resend.emails.send({
-                from: 'NoteForge <noteforge@orcdev.com>',
+                from: 'MD Notes <md.notes@gmail.com>',
                 to: [user.email],
                 subject: 'Reset your password',
                 react: PasswordResetEmail({ userName: user.name, resetUrl: url, requestTime: new Date().toLocaleString() }),
