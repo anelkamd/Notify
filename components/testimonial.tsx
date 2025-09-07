@@ -6,8 +6,13 @@ export default function Testimonials() {
         <section className="py-16 md:py-32">
             <div className="mx-auto max-w-6xl space-y-8 px-6 md:space-y-16">
                 <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
-                    <h2 className="text-4xl font-medium lg:text-5xl">Build by makers, loved by thousand developers</h2>
-                    <p>Gemini is evolving to be more than just the models. It supports an entire to the APIs and platforms helping developers and businesses innovate.</p>
+                    <h2 className="text-4xl font-medium lg:text-5xl">
+                        Trusted by thinkers, loved by note-takers
+                    </h2>
+                    <p>
+                        MD Notes is more than just a note-taking app. It empowers students, professionals,
+                        and creatives to capture ideas, organize projects, and stay productive with ease.
+                    </p>
                 </div>
 
                 <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-rows-2">
@@ -15,103 +20,106 @@ export default function Testimonials() {
                         <CardHeader>
                             <img
                                 className="h-6 w-fit dark:invert"
-                                src="https://html.tailus.io/blocks/customers/nike.svg"
-                                alt="Nike Logo"
+                                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                                alt="React Logo"
                                 height="24"
                                 width="auto"
                             />
                         </CardHeader>
                         <CardContent>
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                <p className="text-xl font-medium">Tailus has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow. The flexibility to customize every aspect allows me to create unique user experiences. Tailus is a game-changer for modern web development</p>
-
+                                <p className="text-xl font-medium">
+                                    MD Notes completely changed how I organize my work. With markdown support
+                                    and an intuitive interface, I save hours every week. It feels natural to
+                                    write and structure my thoughts.
+                                </p>
                                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
                                     <Avatar className="size-12">
                                         <AvatarImage
-                                            src="https://tailus.io/images/reviews/shekinah.webp"
-                                            alt="Shekinah Tshiokufila"
-                                            height="400"
-                                            width="400"
+                                            src="https://randomuser.me/api/portraits/women/44.jpg"
+                                            alt="Jane Doe"
                                             loading="lazy"
                                         />
-                                        <AvatarFallback>ST</AvatarFallback>
+                                        <AvatarFallback>JD</AvatarFallback>
                                     </Avatar>
-
                                     <div>
-                                        <cite className="text-sm font-medium">Shekinah Tshiokufila</cite>
-                                        <span className="text-muted-foreground block text-sm">Software Ingineer</span>
+                                        <cite className="text-sm font-medium">Jane Doe</cite>
+                                        <span className="text-muted-foreground block text-sm">Product Manager</span>
                                     </div>
                                 </div>
                             </blockquote>
                         </CardContent>
                     </Card>
+
                     <Card className="md:col-span-2">
                         <CardContent className="h-full pt-6">
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                <p className="text-xl font-medium">Tailus is really extraordinary and very practical, no need to break your head. A real gold mine.</p>
-
+                                <p className="text-xl font-medium">
+                                    Writing my lecture notes has never been this easy. I just open MD Notes,
+                                    write in markdown, and everything is beautifully organized.
+                                </p>
                                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
                                     <Avatar className="size-12">
                                         <AvatarImage
-                                            src="https://tailus.io/images/reviews/jonathan.webp"
-                                            alt="Jonathan Yombo"
-                                            height="400"
-                                            width="400"
+                                            src="https://randomuser.me/api/portraits/men/46.jpg"
+                                            alt="John Smith"
                                             loading="lazy"
                                         />
-                                        <AvatarFallback>JY</AvatarFallback>
+                                        <AvatarFallback>JS</AvatarFallback>
                                     </Avatar>
                                     <div>
-                                        <cite className="text-sm font-medium">Jonathan Yombo</cite>
-                                        <span className="text-muted-foreground block text-sm">Software Ingineer</span>
+                                        <cite className="text-sm font-medium">John Smith</cite>
+                                        <span className="text-muted-foreground block text-sm">University Student</span>
                                     </div>
                                 </div>
                             </blockquote>
                         </CardContent>
                     </Card>
+
                     <Card>
                         <CardContent className="h-full pt-6">
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                <p>Great work on tailfolio template. This is one of the best personal website that I have seen so far!</p>
-
+                                <p>
+                                    I use MD Notes every day for journaling and tracking my ideas.
+                                    The simplicity is unmatched, and I love how fast it is.
+                                </p>
                                 <div className="grid items-center gap-3 [grid-template-columns:auto_1fr]">
                                     <Avatar className="size-12">
                                         <AvatarImage
-                                            src="https://tailus.io/images/reviews/yucel.webp"
-                                            alt="Yucel Faruksahan"
-                                            height="400"
-                                            width="400"
+                                            src="https://randomuser.me/api/portraits/women/65.jpg"
+                                            alt="Sarah Lee"
                                             loading="lazy"
                                         />
-                                        <AvatarFallback>YF</AvatarFallback>
+                                        <AvatarFallback>SL</AvatarFallback>
                                     </Avatar>
                                     <div>
-                                        <cite className="text-sm font-medium">Yucel Faruksahan</cite>
-                                        <span className="text-muted-foreground block text-sm">Creator, Tailkits</span>
+                                        <cite className="text-sm font-medium">Sarah Lee</cite>
+                                        <span className="text-muted-foreground block text-sm">Freelance Writer</span>
                                     </div>
                                 </div>
                             </blockquote>
                         </CardContent>
                     </Card>
-                    <Card className="card variant-mixed">
+
+                    <Card>
                         <CardContent className="h-full pt-6">
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                <p>Great work on tailfolio template. This is one of the best personal website that I have seen so far!</p>
-
+                                <p>
+                                    I’ve tried a dozen note apps, but MD Notes is the one I finally stuck with.
+                                    Clean, fast, and reliable — exactly what I needed.
+                                </p>
                                 <div className="grid grid-cols-[auto_1fr] gap-3">
                                     <Avatar className="size-12">
                                         <AvatarImage
-                                            src="https://tailus.io/images/reviews/rodrigo.webp"
-                                            alt="Rodrigo Aguilar"
-                                            height="400"
-                                            width="400"
+                                            src="https://randomuser.me/api/portraits/men/33.jpg"
+                                            alt="Carlos Mendes"
                                             loading="lazy"
                                         />
-                                        <AvatarFallback>YF</AvatarFallback>
+                                        <AvatarFallback>CM</AvatarFallback>
                                     </Avatar>
                                     <div>
-                                        <p className="text-sm font-medium">Rodrigo Aguilar</p>
-                                        <span className="text-muted-foreground block text-sm">Creator, TailwindAwesome</span>
+                                        <p className="text-sm font-medium">Carlos Mendes</p>
+                                        <span className="text-muted-foreground block text-sm">Entrepreneur</span>
                                     </div>
                                 </div>
                             </blockquote>
