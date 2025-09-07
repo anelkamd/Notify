@@ -15,33 +15,33 @@ export default function FAQsThree() {
     const faqItems: FAQItem[] = [
         {
             id: 'item-1',
-            icon: 'clock',
-            question: 'What are your business hours?',
-            answer: 'Our customer service team is available Monday through Friday from 9:00 AM to 8:00 PM EST, and weekends from 10:00 AM to 6:00 PM EST. During holidays, hours may vary and will be posted on our website.',
+            icon: 'pencil',
+            question: 'Does MD Notes support Markdown?',
+            answer: 'Yes! MD Notes is built with full Markdown support, so you can use shortcuts like **bold**, _italic_, code blocks, checklists, and more to structure your notes quickly.',
         },
         {
             id: 'item-2',
-            icon: 'credit-card',
-            question: 'How do subscription payments work?',
-            answer: 'Subscription payments are automatically charged to your default payment method on the same day each month or year, depending on your billing cycle. You can update your payment information and view billing history in your account dashboard.',
+            icon: 'cloud',
+            question: 'Where are my notes stored?',
+            answer: 'Your notes are securely stored in the cloud, so you can access them anytime, anywhere. Offline mode is also supported, and your notes will sync once you reconnect.',
         },
         {
             id: 'item-3',
-            icon: 'truck',
-            question: 'Can I expedite my shipping?',
-            answer: 'Yes, we offer several expedited shipping options at checkout. Next-day and 2-day shipping are available for most U.S. addresses if orders are placed before 2:00 PM EST. International expedited shipping options vary by destination.',
+            icon: 'shield',
+            question: 'Is my data safe with MD Notes?',
+            answer: 'Absolutely. All notes are encrypted both in transit and at rest. Only you have access to your content, and we never sell or share your data.',
         },
         {
             id: 'item-4',
-            icon: 'globe',
-            question: 'Do you offer localized support?',
-            answer: 'We offer multilingual support in English, Spanish, French, German, and Japanese. Our support team can assist customers in these languages via email, chat, and phone during standard business hours for each respective region.',
+            icon: 'smartphone',
+            question: 'Can I use MD Notes on mobile?',
+            answer: 'Yes. MD Notes works seamlessly on desktop, tablet, and mobile browsers. A dedicated mobile app is coming soon for iOS and Android.',
         },
         {
             id: 'item-5',
-            icon: 'package',
-            question: 'How do I track my order?',
-            answer: 'Once your order ships, you\'ll receive a confirmation email with a tracking number. You can use this number on our website or the carrier\'s website to track your package. You can also view order status and tracking information in your account dashboard under "Order History".',
+            icon: 'credit-card',
+            question: 'Is MD Notes free to use?',
+            answer: 'MD Notes offers a free plan with all core features. For power users, our Pro plan unlocks unlimited storage, advanced collaboration, and priority support.',
         },
     ]
 
@@ -53,11 +53,11 @@ export default function FAQsThree() {
                         <div className="sticky top-20">
                             <h2 className="mt-4 text-3xl font-bold">Frequently Asked Questions</h2>
                             <p className="text-muted-foreground mt-4">
-                                Can't find what you're looking for? Contact our{' '}
+                                Can’t find what you’re looking for? Contact our{' '}
                                 <Link
                                     href="#"
                                     className="text-primary font-medium hover:underline">
-                                    customer support team
+                                    support team
                                 </Link>
                             </p>
                         </div>
