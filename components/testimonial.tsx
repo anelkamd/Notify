@@ -36,15 +36,15 @@ export default function Testimonials() {
                                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
                                     <Avatar className="size-12">
                                         <AvatarImage
-                                            src="https://randomuser.me/api/portraits/women/44.jpg"
-                                            alt="Jane Doe"
+                                            src="/avatar.png"
+                                            alt="Josias K"
                                             loading="lazy"
                                         />
-                                        <AvatarFallback>JD</AvatarFallback>
+                                        <AvatarFallback>JK</AvatarFallback>
                                     </Avatar>
                                     <div>
-                                        <cite className="text-sm font-medium">Jane Doe</cite>
-                                        <span className="text-muted-foreground block text-sm">Product Manager</span>
+                                        <cite className="text-sm font-medium">Josias K</cite>
+                                        <span className="text-muted-foreground block text-sm">Software Engineer</span>
                                     </div>
                                 </div>
                             </blockquote>
@@ -61,14 +61,14 @@ export default function Testimonials() {
                                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
                                     <Avatar className="size-12">
                                         <AvatarImage
-                                            src="https://randomuser.me/api/portraits/men/46.jpg"
+                                            src="/avatar3.png"
                                             alt="John Smith"
                                             loading="lazy"
                                         />
-                                        <AvatarFallback>JS</AvatarFallback>
+                                        <AvatarFallback>PM</AvatarFallback>
                                     </Avatar>
                                     <div>
-                                        <cite className="text-sm font-medium">John Smith</cite>
+                                        <cite className="text-sm font-medium">Promesse M</cite>
                                         <span className="text-muted-foreground block text-sm">University Student</span>
                                     </div>
                                 </div>
@@ -86,14 +86,14 @@ export default function Testimonials() {
                                 <div className="grid items-center gap-3 [grid-template-columns:auto_1fr]">
                                     <Avatar className="size-12">
                                         <AvatarImage
-                                            src="https://randomuser.me/api/portraits/women/65.jpg"
+                                            src="/avatar1.png"
                                             alt="Sarah Lee"
                                             loading="lazy"
                                         />
-                                        <AvatarFallback>SL</AvatarFallback>
+                                        <AvatarFallback>DP</AvatarFallback>
                                     </Avatar>
                                     <div>
-                                        <cite className="text-sm font-medium">Sarah Lee</cite>
+                                        <cite className="text-sm font-medium">Dorcas P</cite>
                                         <span className="text-muted-foreground block text-sm">Freelance Writer</span>
                                     </div>
                                 </div>
@@ -111,14 +111,14 @@ export default function Testimonials() {
                                 <div className="grid grid-cols-[auto_1fr] gap-3">
                                     <Avatar className="size-12">
                                         <AvatarImage
-                                            src="https://randomuser.me/api/portraits/men/33.jpg"
+                                            src="/avatar2.png"
                                             alt="Carlos Mendes"
                                             loading="lazy"
                                         />
-                                        <AvatarFallback>CM</AvatarFallback>
+                                        <AvatarFallback>HK</AvatarFallback>
                                     </Avatar>
                                     <div>
-                                        <p className="text-sm font-medium">Carlos Mendes</p>
+                                        <p className="text-sm font-medium">Huitieme K</p>
                                         <span className="text-muted-foreground block text-sm">Entrepreneur</span>
                                     </div>
                                 </div>
